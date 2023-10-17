@@ -1,105 +1,123 @@
 <!DOCTYPE html>
-<html>
-<head>
-<title>Desroches Farm</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="./css/style.css">
+<html lang="en">
+   <head>
+      <title>Desroches Farm</title>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="./css/style.css">
+   </head>
+   <body>
+      <!-- Navbar (sit on top) -->
+      <div class="w3-top">
+         <div class="w3-bar bg-dark-blue w3-padding w3-card" style="letter-spacing:4px;">
+            <a href="#home" class="w3-bar-item w3-button">R&P Desroches Farm</a>
+            <!-- Right-sided navbar links. Hide them on small screens -->
+            <div class="w3-right w3-hide-small">
+               <a href="#about" class="w3-bar-item w3-button">About</a>
+               <a href="#menu" class="w3-bar-item w3-button">Products</a>
+               <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+            </div>
+         </div>
+      </div>
+      <!-- Header -->
+      <header class="w3-display-container w3-content w3-blue-grey" style="max-width:1200px;min-width:350px" id="home">
+         <img class="w3-image main-image darken" src="./images/FieldPumpkins.jpg" alt="Trailer in green field filled with colorful pumpkins, squash and gourds" >
+         <div class="main-title w3-padding-16 w3-opacity-min">
+            <h1 class="w3-text-white w3-center title-text">DESROCHES FARM </h1>
+         </div>
+         <div class="main-text-box w3-opacity-min">
+            <h2 class="main-text w3-text-white w3-opacity-min">A Tiny Autumn Tradition</h2>
+         </div>
+      </header>
+      <!-- Page content -->
+      <div class="w3-content" style="max-width:1100px">
+         <!-- About Section -->
+         <div class="w3-row w3-padding-64" id="about">
+            <div class="w3-col m6 w3-padding-large w3-hide-small ">
+               <img src="./images/BasketDisplay.jpg" class="w3-round w3-image" alt="A round basket, on it's side, filled with fall-coloured gourds" width="600" height="750">
+            </div>
+            <div class="w3-col m6 w3-padding-large">
+               <h2 class="w3-center">About Us</h2>
+               <br>
+               <p class="w3-large">R&P Desroches Farm is a seasonal destination for all variety of pumpkins, fall décor, 
+                  and squash. Located near Perkinsfield in Tiny Township the farm is easy driving distance from Midland, Penetang, Elmvale and beyond.
+               </p>
+               <p class="w3-large">Beginning in mid September, R&P Desroches Farm offers a wide selection of various types of pumpkins 
+                  that are fully stocked in their farm stand.  They also offer a variety of gourds, straw bales and corn stalks and squash.
+               </p>
+            </div>
+         </div>
+         <hr>
+         <!-- Menu Section -->
+         <div class="w3-row w3-padding-64" id="menu">
+            <div class="w3-col l6 w3-padding-large">
+               <h2 class="w3-center">Our Products</h2>
+               <br>
+               <span class="product-text-box">
+                  <span><strong>Pumpkins</strong></span>
+                  <span>$2 to $25</span>
+               </span>
+              
+               <br>
+               <span class="product-text-box">
+                  <span><strong>White Pumpkins</strong></span>
+                  <span>$3 to $25</span>
+               </span>
+           
+               <br>
+               <span class="product-text-box">
+                  <span><strong>Gourds</strong></span>
+                  <span>$0.50 to $13</span>
+               </span>
 
-</head>
-<body>
+               <br>
+               <span class="product-text-box">
+                  <span><strong>Squash</strong></span>
+                  <span>$2 to $5</span>
+               </span>
 
-<!-- Navbar (sit on top) -->
-<div class="w3-top">
-  <div class="w3-bar bg-dark-blue w3-padding w3-card" style="letter-spacing:4px;">
-    <a href="#home" class="w3-bar-item w3-button">R&P Desroches Farm</a>
-    <!-- Right-sided navbar links. Hide them on small screens -->
-    <div class="w3-right w3-hide-small">
-      <a href="#about" class="w3-bar-item w3-button">About</a>
-      <a href="#menu" class="w3-bar-item w3-button">Products</a>
-      <a href="#contact" class="w3-bar-item w3-button">Contact</a>
-    </div>
-  </div>
-</div>
+               <br>
+               <span class="product-text-box">
+                <span><strong>Bundles of Corn Stalks</strong></span>
+                <span>$5</span>
+             </span>
 
-<!-- Header -->
-<header class="w3-display-container w3-content w3-blue-grey" style="max-width:1200px;min-width:350px" id="home">
-  <img class="w3-image main-image darken" src="./images/FieldPumpkins.jpg" alt="Hamburger Catering" >
-  <div class="main-text w3-opacity-min">
-    <h2 class="w3-hide-small">A Tiny Autumn Tradition</h2>
-    <h4 class="w3-hide-medium w3-hide-large">A Tiny Autumn Tradition</h3>
-  </div>
-    <div class="main-title w3-padding-16 w3-opacity-min">
-    <h1 class="w3-text-white w3-center">DESROCHES FARM </h1>
-  </div>
+             <br>
+             <span class="product-text-box">
+              <span><strong>Straw Bales</strong></span>
+              <span>$5</span>
+           </span>
 
-</header>
-
-<!-- Page content -->
-<div class="w3-content" style="max-width:1100px">
-
-  <!-- About Section -->
-  <div class="w3-row w3-padding-64" id="about">
-    <div class="w3-col m6 w3-padding-large w3-hide-small">
-     <img src="./images/BasketDisplay.jpg" class="w3-round w3-image" alt="Table Setting" width="600" height="750">
-    </div>
-
-    <div class="w3-col m6 w3-padding-large">
-      <h1 class="w3-center">About Us</h1><br>
-      <p class="w3-large">Robert and Paige Desroches Farm was founded in 1492 by christopher columbus. Lorem ipsum dolor, sit amet consectetur adipisicing elit.We sell lots of <span class="w3-tag w3-text-orange">Orange</span> ingredients.</p>    </div>
-  </div>
-  
-  <hr>
-  
-  <!-- Menu Section -->
-  <div class="w3-row w3-padding-64" id="menu">
-    <div class="w3-col l6 w3-padding-large">
-      <h2 class="w3-center">Our Products</h1><br>
-      <span><h4>Pumpkins</h4</span> <span class="price-text">$1-40</span>
-      <p class="w3-text-grey">Available in many colors shapes and sizes.</p><br>
+           <br>
+            </div>
+            <div class="w3-col l6 w3-padding-large">
+               <img src="./images/DisplayWithArray.jpg" class="w3-round w3-image" alt="A sectioned photo featuring a large R&P Desroches Farm sign along with an array of small photos of fall displays" style="width:100%">
+            </div>
+         </div>
+         <hr>
+         <!-- Contact Section -->
+         <div class="w3-container w3-padding-64" id="contact">
+            <h2>
+            Contact</h2><br>
+            <p>Visit R&P Desroches Farm for your Thanksgiving and Halloween harvest decorations.</p>
+            <p class="w3-text-blue-grey w3-large"><b>230 County Road 6 S</b></p>
+            <p class="w3-text-blue-grey w3-large"><b>Tiny, Ontario</b></p>
+            <p class="w3-text-blue-grey w3-large"><b>L0L 2J0</b></p>
+            <p>Feel free to get in touch with us by completing and sending the form provided below.</p>
     
-      
-      <span><h4>Squash</h4</span> <span class="price-text">$2-5</span>
-      <p class="w3-text-grey">Tons of varieties of squash including acorn, spaghetti, butternut and buttercup</p><br>
-    
-    
-      <span><h4>Corn Stalks</h4</span> <span class="price-text">$3</span>
-      <p class="w3-text-grey">Perfect for decorating!</p><br>
-    
-    
-      <span><h4>Straw Bales</h4</span> <span class="price-text">$8</span>
-      <p class="w3-text-grey">Excellent for if you aren't feeling itchy enough</p><br>
-    </div>
-    
-    <div class="w3-col l6 w3-padding-large">
-      <img src="./images/DisplayWithArray.jpg" class="w3-round w3-image" alt="Menu" style="width:100%">
-    </div>
-  </div>
+            <form action="https://formspree.io/f/mdoryjen" method="POST">
 
-  <hr>
-
-  <!-- Contact Section -->
-  <div class="w3-container w3-padding-64" id="contact">
-    <h1>Contact</h1><br>
-    <p>We encourage you to come to the farm and check us out!</p>
-    <p class="w3-text-blue-grey w3-large"><b>Address here</b></p>
-    <p>You can also contact us by phone at 555-555-farm, by email at contact@desrochesfarm.ca, or you can send us a message here if we choose to develop this feature:</p>
-    <form action="/action_page.php" target="_blank">
-      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
-      <p><input class="w3-input w3-padding-16" type="number" placeholder="How many people" required name="People"></p>
-      <p><input class="w3-input w3-padding-16" type="datetime-local" placeholder="Date and time" required name="date" value="2020-11-16T20:00"></p>
-      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message \ Special requirements" required name="Message"></p>
-      <p><button class="w3-button w3-light-grey w3-section" type="submit">SEND MESSAGE</button></p>
-    </form>
-  </div>
-  
-<!-- End page content -->
-</div>
-
-<!-- Footer -->
-<footer class="w3-center w3-light-grey w3-padding-32">
-  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
-</footer>
-
-</body>
+              <p><label for="Name">Name</label><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name" id="Name"></p>
+              <p><label for="Email">Email</label><input class="w3-input w3-padding-16" type="email" placeholder="Email address" required name="Email" id="Email"></p>
+              <p><label for="Message">Message</label><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message" id="Message"></p>
+              <p><button class="w3-button w3-grey w3-section" type="submit">SEND MESSAGE</button></p>
+            </form>
+         </div>
+         <!-- End page content -->
+      </div>
+      <!-- Footer -->
+      <footer class="w3-center w3-light-grey w3-padding-32">
+         <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+      </footer>
+   </body>
 </html>

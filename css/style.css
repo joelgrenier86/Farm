@@ -85,7 +85,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .w3-cell-top{vertical-align:top}.w3-cell-middle{vertical-align:middle}.w3-cell-bottom{vertical-align:bottom}
 .w3-hide{display:none!important}.w3-show-block,.w3-show{display:block!important}.w3-show-inline-block{display:inline-block!important}
 @media (max-width:1205px){.w3-auto{max-width:95%}}
-@media (max-width:600px){.w3-modal-content{margin:0 10px;width:auto!important}.w3-modal{padding-top:30px}
+@media (max-width:601px){.w3-modal-content{margin:0 10px;width:auto!important}.w3-modal{padding-top:30px}
 .w3-dropdown-hover.w3-mobile .w3-dropdown-content,.w3-dropdown-click.w3-mobile .w3-dropdown-content{position:relative}	
 .w3-hide-small{display:none!important}.w3-mobile{display:block;width:100%!important}.w3-bar-item.w3-mobile,.w3-dropdown-hover.w3-mobile,.w3-dropdown-click.w3-mobile{text-align:center}
 .w3-dropdown-hover.w3-mobile,.w3-dropdown-hover.w3-mobile .w3-btn,.w3-dropdown-hover.w3-mobile .w3-button,.w3-dropdown-click.w3-mobile,.w3-dropdown-click.w3-mobile .w3-btn,.w3-dropdown-click.w3-mobile .w3-button{width:100%}}
@@ -254,13 +254,34 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .darken {
     filter: brightness(60%);
  }
- .main-text{position:absolute;left:0;bottom:0; color:white}
+ .main-text-box{position:absolute;left:0;bottom:0; color:white}
+ .product-text-box{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between ;
+ }
 
- @media(max-width:1200px){
+
+ @media(max-width:455px){
+    .title-text{font-size: 16px !important}
+    .main-text{
+        font-size:12px !important
+    }
+}
+@media(max-width:900px) and (min-width:456px){
+    .title-text{font-size: 22px !important;
+
+    }
+    .main-text{
+        font-size:18px !important
+    }     
+
+}
+ @media(max-width:900px){
+
     .main-image{
         max-width:100%;
      }
-    .h2{font-size: 22px !important;}
     .main-title{position:absolute;top:40%;left:50%;transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);letter-spacing: 2px; text-wrap: nowrap;}
-    .main-text{position:absolute;left:0px;bottom:0; color:white;letter-spacing: 2px; } 
+    .main-text-box{position:absolute;left:0px;bottom:0; color:white;letter-spacing: 2px; } 
 }
